@@ -1,1 +1,40 @@
+#designhead {
+    background: $primary-bg;
+    text-align: center;
+    color: darken($dark-font, 30%);
+    padding: 3em 0em 0em 0em;
+    h3 {
+        margin-bottom: 1.5em;
+        color: $lighter-font;
+    }
+    p {
+        margin-bottom: 5em;
+    }
+    .img-container {
+        border-top: 25px;
+        border-bottom: 0px;
+        border-right: 0px;
+        border-left: 0px;
+        border-style: solid;
+        border-color: $darker-bg;
+        display: inline-block;
+        margin-bottom: 0px;
+    }
+}
 
+#designdetails {
+    background: $dark-bg;
+    color: $lighter-font;
+    padding: 3em 0em;
+    h4 {
+        margin-bottom: 1em;
+        span {
+            color: darken($dark-font, 30%);
+        }
+    }
+    p {
+        line-height: 1.7em;
+        color: darken($dark-font, 30%);
+        margin-bottom: 2em;
+    }
+}

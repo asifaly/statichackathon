@@ -6,7 +6,7 @@ body {
   background: url("../assets/wearable3.jpeg");
   background-repeat: no-repeat;
   background-size: 100%;
-  transition: width 0.5s;
+  transition: width 0.5s ease-in;
   height: 100vmin; }
   #landing .heading {
     position: relative;
@@ -29,7 +29,7 @@ body {
 
 #features {
   background: #f4f8fb;
-  color: #A1A4A9;
+  color: #A9ACB1;
   padding: 4em 0em; }
   #features .btn-solid {
     background: #3dd1ac;
@@ -39,16 +39,49 @@ body {
     border-radius: 2em;
     font-size: 0.8em; }
   #features h3 {
-    color: #55585c; }
+    color: #5c5f65; }
   #features p {
-    color: #55585c;
+    color: #5c5f65;
     font-size: 0.9em;
     line-height: 1.8em; }
     #features p.tagline {
-      color: #bcbec1;
+      color: #c4c6c9;
       font-size: 1.2em;
       font-weight: 300;
       padding: 0.7em 0em; }
+
+#designhead {
+  background: #232732;
+  text-align: center;
+  color: #5c5f65;
+  padding: 3em 0em 0em 0em; }
+  #designhead h3 {
+    margin-bottom: 1.5em;
+    color: #c1c6cc; }
+  #designhead p {
+    margin-bottom: 5em; }
+  #designhead .img-container {
+    border-top: 25px;
+    border-bottom: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    border-style: solid;
+    border-color: #1b2024;
+    display: inline-block;
+    margin-bottom: 0px; }
+
+#designdetails {
+  background: #2C303C;
+  color: #c1c6cc;
+  padding: 3em 0em; }
+  #designdetails h4 {
+    margin-bottom: 1em; }
+    #designdetails h4 span {
+      color: #5c5f65; }
+  #designdetails p {
+    line-height: 1.7em;
+    color: #5c5f65;
+    margin-bottom: 2em; }
 
 #quote {
   position: relative; }
@@ -75,10 +108,10 @@ body {
 
 #footer {
   background: #1b2024;
-  color: gray;
+  color: #5c5f65;
   padding: 3em 0em; }
   #footer a {
-    color: gray;
+    color: #5c5f65;
     font-size: 0.9em;
     margin-right: 1em;
     text-decoration: none; }
