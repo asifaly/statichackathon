@@ -1,1 +1,38 @@
-
+#footer {
+    background: $darker-bg;
+    color: darken($light-font, 50%);
+    padding: 3em 0em;
+    a {
+        display: block;
+        color: darken($light-font, 50%);
+        font-size: 0.9em;
+        padding: 0.3em;
+        text-decoration: none;
+        &:hover {
+            color: $light-font;
+        }
+    }
+    h4 {
+        font-weight: bold;
+        font-size: 0.9em;
+    }
+    p {
+        font-size: 0.9em;
+    }
+    span {
+        background: $secondary-bg;
+    }
+    i {
+        color: $light-font;
+        font-size: 2em;
+    }
+    .form-control {
+        height: 3em;
+        border: none;
+        border-radius: 0px;
+    }
+    span.input-group-addon {
+        border-radius: 0px;
+        border: none;
+    }
+}

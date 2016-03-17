@@ -1,1 +1,26 @@
-
+#quote {
+    position: relative;
+    img {
+        width: 100%;
+    }
+    .userquote {
+        background: $secondary-bg;
+        padding: 2em 4em;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 35em;
+        color: darken($light-font, 20%);
+        .main {
+            font-size: 2em;
+            font-style: italic;
+            font-weight: 300;
+        }
+        img {
+            width: 5em;
+        }
+        .name {
+            margin-left: 1em;
+        }
+    }
+}
