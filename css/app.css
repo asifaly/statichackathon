@@ -1,6 +1,17 @@
 body {
   font-family: 'Open Sans', sans-serif; }
 
+.btn-solid {
+  background: #3dd1ac;
+  color: #fff;
+  width: 8em;
+  border: 1px solid #3dd1ac;
+  border-radius: 2em;
+  font-size: 0.8em; }
+
+.navtrans {
+  background: transparent; }
+
 #landing {
   position: relative;
   background: url("../assets/wearable3.jpeg");
@@ -27,17 +38,26 @@ body {
       margin-left: 50%;
       padding: 0em 5em 0em 0em; } }
 
+#intro {
+  background: #835fa9;
+  padding: 3em 0em 0em;
+  color: #fff; }
+  #intro img {
+    position: relative;
+    width: 15em; }
+  #intro .introinline {
+    display: inline-block;
+    width: 45%; }
+  #intro .topintro {
+    vertical-align: top; }
+  #intro .introimage {
+    vertical-align: bottom;
+    border: 0; }
+
 #features {
   background: #f4f8fb;
   color: #A9ACB1;
   padding: 4em 0em; }
-  #features .btn-solid {
-    background: #3dd1ac;
-    color: #fff;
-    width: 8em;
-    border: 1px solid #3dd1ac;
-    border-radius: 2em;
-    font-size: 0.8em; }
   #features h3 {
     color: #5c5f65; }
   #features p {

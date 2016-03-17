@@ -1,1 +1,21 @@
-
+#intro {
+    background: $secondary-bg;
+    padding: 3em 0em 0em;
+    color: $light-font;
+    img {
+        position: relative;
+        // transform: translateY(-20%);
+        width: 15em;
+    }
+    .introinline {
+        display: inline-block;
+        width: 45%;
+    }
+    .topintro {
+        vertical-align: top;
+    }
+    .introimage {
+        vertical-align: bottom;
+        border: 0;
+    }
+}

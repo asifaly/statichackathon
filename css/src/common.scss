@@ -1,3 +1,16 @@
 body {
     font-family: 'Open Sans', sans-serif;
 }
+
+.btn-solid {
+    background: $button-bg;
+    color: $light-font;
+    width: 8em;
+    border: 1px solid $button-bg;
+    border-radius: 2em;
+    font-size: 0.8em;
+}
+
+.navtrans {
+    background: transparent;
+}
