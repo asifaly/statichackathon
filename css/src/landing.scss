@@ -1,1 +1,33 @@
-
+#landing {
+    position: relative;
+    background: url("../assets/wearable3.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    transition: width 0.5s;
+    height: 100vmin;
+    .heading {
+        position: relative;
+        margin: auto;
+        top: 50%;
+        transform: translateY(-50%);
+        color: $light-font;
+        h1 {
+            font-size: 2em;
+        }
+    }
+    @media (min-width: 768px) {
+        .heading {
+            margin-left: 30%;
+            padding: 0em 3em 0em 0em;
+            h1 {
+                font-size: 3em;
+            }
+        }
+    }
+    @media (min-width: 992px) {
+        .heading {
+            margin-left: 50%;
+            padding: 0em 5em 0em 0em;
+        }
+    }
+}
