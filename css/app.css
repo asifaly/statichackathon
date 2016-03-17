@@ -27,6 +27,29 @@ body {
       margin-left: 50%;
       padding: 0em 5em 0em 0em; } }
 
+#features {
+  background: #f4f8fb;
+  color: #A1A4A9;
+  padding: 4em 0em; }
+  #features .btn-solid {
+    background: #3dd1ac;
+    color: #fff;
+    width: 8em;
+    border: 1px solid #3dd1ac;
+    border-radius: 2em;
+    font-size: 0.8em; }
+  #features h3 {
+    color: #55585c; }
+  #features p {
+    color: #55585c;
+    font-size: 0.9em;
+    line-height: 1.8em; }
+    #features p.tagline {
+      color: #bcbec1;
+      font-size: 1.2em;
+      font-weight: 300;
+      padding: 0.7em 0em; }
+
 #quote {
   position: relative; }
   #quote img {

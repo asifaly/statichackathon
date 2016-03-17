@@ -1,1 +1,27 @@
-
+#features {
+    background: $light-bg;
+    color: $dark-font;
+    padding: 4em 0em;
+    .btn-solid {
+        background: $button-bg;
+        color: $light-font;
+        width: 8em;
+        border: 1px solid $button-bg;
+        border-radius: 2em;
+        font-size: 0.8em;
+    }
+    h3 {
+        color: darken($dark-font, 30%);
+    }
+    p {
+        color: darken($dark-font, 30%);
+        font-size: 0.9em;
+        line-height: 1.8em;
+        &.tagline {
+            color: lighten($dark-font, 10%);
+            font-size: 1.2em;
+            font-weight: 300;
+            padding: 0.7em 0em;
+        }
+    }
+}
