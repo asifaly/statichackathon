@@ -8,8 +8,8 @@
     .heading {
         position: relative;
         margin: auto;
-        top: 50%;
-        transform: translateY(-50%);
+        top: 40%;
+        transform: translateY(-60%);
         color: $light-font;
         h1 {
             font-size: 2em;
@@ -29,5 +29,28 @@
             margin-left: 50%;
             padding: 0em 5em 0em 0em;
         }
+    }
+    nav {
+        margin-top: 2em;
+    }
+    input {
+        background: $darker-bg;
+        color: darken($dark-font, 30%);
+        border: 0px;
+        border-radius: 2em 0em 0em 2em;
+        font-size: 0.8em;
+    }
+    .input-group-addon {
+        background: $darker-bg;
+        color: $lighter-font;
+        border: 0px;
+        border-radius: 0em 2em 2em 0em;
+    }
+    .navbar-form-top {
+        margin-top: 0px;
+    }
+    .btn-solid {
+        background: $secondary-bg;
+        border: 4px solid $secondary-bg;
     }
 }

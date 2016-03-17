@@ -9,6 +9,11 @@ body {
     border: 1px solid $button-bg;
     border-radius: 2em;
     font-size: 0.8em;
+    text-decoration: none;
+    &:hover {
+        opacity: 0.8;
+        color: $light-font;
+    }
 }
 
 .navtrans {

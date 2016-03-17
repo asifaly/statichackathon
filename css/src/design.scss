@@ -37,4 +37,10 @@
         color: darken($dark-font, 30%);
         margin-bottom: 2em;
     }
+    i {
+        display: block;
+        font-size: 3em;
+        color: $button-bg;
+        margin-bottom: 1em;
+    }
 }
