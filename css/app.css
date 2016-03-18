@@ -59,6 +59,8 @@ body {
   #landing .btn-solid {
     background: #835fa9;
     border: 4px solid #835fa9; }
+  #landing .logo {
+    width: 6em; }
 
 #intro {
   background: #835fa9;
@@ -130,6 +132,25 @@ body {
     color: #3dd1ac;
     margin-bottom: 1em; }
 
+#demo .col1 {
+  position: relative;
+  background: #f4f8fb; }
+  #demo .col1 h4 {
+    margin: 2em 1em; }
+  #demo .col1 p {
+    margin: 1.5em;
+    padding-bottom: 4.5em; }
+  #demo .col1 div.comments {
+    position: absolute;
+    bottom: 1em;
+    left: 1.5em; }
+    #demo .col1 div.comments span.number {
+      font-size: 1.5em;
+      color: #A9ACB1; }
+    #demo .col1 div.comments span.commdesc {
+      font-size: 0.7em; }
+#demo .row1 {
+  background: #A9ACB1; }
 #demo h3 {
   color: #5c5f65; }
   #demo h3 i {

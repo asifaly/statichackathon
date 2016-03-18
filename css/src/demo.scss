@@ -1,4 +1,30 @@
 #demo {
+    .col1 {
+        position: relative;
+        background: $light-bg;
+        h4 {
+            margin: 2em 1em;
+        }
+        p {
+            margin: 1.5em;
+            padding-bottom: 4.5em;
+        }
+        div.comments {
+            position: absolute;
+            bottom: 1em;
+            left: 1.5em;
+            span.number {
+                font-size: 1.5em;
+                color: $dark-font;
+            }
+            span.commdesc {
+                font-size: 0.7em;
+            }
+        }
+    }
+    .row1 {
+        background: $dark-font;
+    }
     h3 {
         color: darken($dark-font, 30%);
         i {
@@ -11,7 +37,6 @@
         color: darken($dark-font, 30%);
         font-size: 0.9em;
         // line-height: 1.8em;
-
         padding-right: 2em;
         padding-bottom: 0.9em;
         &.tagline {
