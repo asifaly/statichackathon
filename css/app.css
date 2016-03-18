@@ -139,19 +139,23 @@ body {
 #demo p {
   color: #5c5f65;
   font-size: 0.9em;
-  line-height: 1.8em; }
+  line-height: 1.8em;
+  padding-right: 2em; }
   #demo p.tagline {
     color: #c4c6c9;
+    padding-right: 2em;
     font-size: 1.2em;
     font-weight: 300;
-    padding: 0.7em 0em; }
+    padding: 0.7em 2em 0em 0em; }
 #demo img {
   width: 100%; }
 #demo .imgcontain {
   padding-left: 0px;
-  padding-right: 0px; }
+  padding-right: 0px;
+  display: table-cell; }
 #demo .userquote {
   background: #835fa9;
+  padding: 1.6em 4em;
   width: 100%;
   color: #cccccc; }
   #demo .userquote img {
@@ -162,8 +166,7 @@ body {
     font-size: 2em;
     font-style: italic;
     font-weight: 300;
-    color: #cccccc;
-    padding: 1.6em 4em; }
+    color: #cccccc; }
 
 #quote {
   position: relative; }
