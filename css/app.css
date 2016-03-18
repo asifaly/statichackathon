@@ -138,8 +138,7 @@ body {
   #demo .col1 h4 {
     margin: 2em 1em; }
   #demo .col1 p {
-    margin: 1.5em;
-    padding-bottom: 4.5em; }
+    margin: 1.5em; }
   #demo .col1 div.comments {
     position: absolute;
     bottom: 1em;
@@ -172,8 +171,7 @@ body {
   width: 100%; }
 #demo .imgcontain {
   padding-left: 0px;
-  padding-right: 0px;
-  display: table-cell; }
+  padding-right: 0px; }
 #demo .userquote {
   background: #835fa9;
   padding: 1.6em 4em;
