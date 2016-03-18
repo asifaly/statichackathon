@@ -10,8 +10,10 @@
     p {
         color: darken($dark-font, 30%);
         font-size: 0.9em;
-        line-height: 1.8em;
+        // line-height: 1.8em;
+
         padding-right: 2em;
+        padding-bottom: 0.9em;
         &.tagline {
             color: lighten($dark-font, 10%);
             padding-right: 2em;
@@ -38,6 +40,7 @@
         }
         .name {
             margin-left: 1em;
+            color: darken($light-font, 20%);
         }
         .main {
             font-size: 2em;

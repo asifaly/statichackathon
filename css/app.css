@@ -139,8 +139,8 @@ body {
 #demo p {
   color: #5c5f65;
   font-size: 0.9em;
-  line-height: 1.8em;
-  padding-right: 2em; }
+  padding-right: 2em;
+  padding-bottom: 0.9em; }
   #demo p.tagline {
     color: #c4c6c9;
     padding-right: 2em;
@@ -161,7 +161,8 @@ body {
   #demo .userquote img {
     width: 5em; }
   #demo .userquote .name {
-    margin-left: 1em; }
+    margin-left: 1em;
+    color: #cccccc; }
   #demo .userquote .main {
     font-size: 2em;
     font-style: italic;
