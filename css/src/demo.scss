@@ -1,1 +1,47 @@
-
+#demo {
+    h3 {
+        color: darken($dark-font, 30%);
+        i {
+            font-size: 1.5em;
+            color: $secondary-bg;
+            margin-right: 0.3em;
+        }
+    }
+    p {
+        color: darken($dark-font, 30%);
+        font-size: 0.9em;
+        line-height: 1.8em;
+        &.tagline {
+            color: lighten($dark-font, 10%);
+            font-size: 1.2em;
+            font-weight: 300;
+            padding: 0.7em 0em;
+        }
+    }
+    img {
+        width: 100%;
+    }
+    .imgcontain {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .userquote {
+        background: $secondary-bg;
+        // padding: 1.6em 4em;
+        width: 100%;
+        color: darken($light-font, 20%);
+        img {
+            width: 5em;
+        }
+        .name {
+            margin-left: 1em;
+        }
+        .main {
+            font-size: 2em;
+            font-style: italic;
+            font-weight: 300;
+            color: darken($light-font, 20%);
+            padding: 1.6em 4em;
+        }
+    }
+}

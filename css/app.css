@@ -77,7 +77,7 @@ body {
     border: 0; }
 
 #features {
-  background: #f4f8fb;
+  background: #2C303C;
   color: #A9ACB1;
   padding: 4em 0em; }
   #features h3 {
@@ -129,6 +129,41 @@ body {
     font-size: 3em;
     color: #3dd1ac;
     margin-bottom: 1em; }
+
+#demo h3 {
+  color: #5c5f65; }
+  #demo h3 i {
+    font-size: 1.5em;
+    color: #835fa9;
+    margin-right: 0.3em; }
+#demo p {
+  color: #5c5f65;
+  font-size: 0.9em;
+  line-height: 1.8em; }
+  #demo p.tagline {
+    color: #c4c6c9;
+    font-size: 1.2em;
+    font-weight: 300;
+    padding: 0.7em 0em; }
+#demo img {
+  width: 100%; }
+#demo .imgcontain {
+  padding-left: 0px;
+  padding-right: 0px; }
+#demo .userquote {
+  background: #835fa9;
+  width: 100%;
+  color: #cccccc; }
+  #demo .userquote img {
+    width: 5em; }
+  #demo .userquote .name {
+    margin-left: 1em; }
+  #demo .userquote .main {
+    font-size: 2em;
+    font-style: italic;
+    font-weight: 300;
+    color: #cccccc;
+    padding: 1.6em 4em; }
 
 #quote {
   position: relative; }
